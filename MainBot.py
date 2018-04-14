@@ -31,8 +31,8 @@ def main():
             # chrome_option=chromeoption
             browser = webdriver.Chrome(chrome_options=chromeoption)
 
-            # while (strftime("%H:%M", localtime()) != item[4]):
-            #     print(strftime("%H:%M", localtime()))
+            while (strftime("%H:%M", localtime()) != item[4]):
+                print(strftime("%H:%M", localtime()))
             repeatCheck = 0
             # search the item on the Supreme new page with 10 times
             while repeatCheck < 10:
